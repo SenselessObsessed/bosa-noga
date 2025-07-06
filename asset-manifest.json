@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bosa-noga/static/css/main.72ba3479.css",
+    "main.js": "/bosa-noga/static/js/main.e1cb470a.js",
+    "static/media/banner.jpg": "/bosa-noga/static/media/banner.5fd2c60d58a8686daee0.jpg",
+    "static/media/footer-sprite.png": "/bosa-noga/static/media/footer-sprite.b3d5697aeb76ce9f8002.png",
+    "index.html": "/bosa-noga/index.html",
+    "main.72ba3479.css.map": "/bosa-noga/static/css/main.72ba3479.css.map",
+    "main.e1cb470a.js.map": "/bosa-noga/static/js/main.e1cb470a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72ba3479.css",
+    "static/js/main.e1cb470a.js"
+  ]
+}
