@@ -11,7 +11,7 @@ import Cart from '../Components/Pages/Cart';
 
 function App() {
 	return (
-		<Router>
+		<Router basename='/bosa-noga'>
 			<Header />
 			<Routes>
 				<Route path='/' Component={Home} />

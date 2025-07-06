@@ -6,7 +6,7 @@ import {
 } from '../HitsSlice';
 
 export const FetchHintsThunk = () => async (dispatch, getState) => {
-	const url = 'http://localhost:7070/api/top-sales';
+	const url = 'https://bosa-noga-backend-kc9h.onrender.com/api/top-sales';
 	dispatch(loadingHits());
 
 	try {

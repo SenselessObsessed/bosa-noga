@@ -28,7 +28,7 @@ export const FetchCardsThunk =
 			urlParams.append('q', search);
 		}
 
-		const url = `http://localhost:7070/api/items?${urlParams}`;
+		const url = `https://bosa-noga-backend-kc9h.onrender.com/api/items?${urlParams}`;
 
 		try {
 			const response = await fetch(url);

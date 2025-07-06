@@ -5,7 +5,7 @@ import {
 } from '../CardSlice';
 
 export const FetchCardThunk = id => async (dispatch, getState) => {
-	const url = `http://localhost:7070/api/items/${id}`;
+	const url = `https://bosa-noga-backend-kc9h.onrender.com/api/items/${id}`;
 	dispatch(loadingCard());
 
 	try {

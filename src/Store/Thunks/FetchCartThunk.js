@@ -6,7 +6,7 @@ import {
 } from '../CartSlice';
 
 export const FetchCartThunk = body => async (dispatch, getState) => {
-	const url = 'http://localhost:7070/api/order';
+	const url = 'https://bosa-noga-backend-kc9h.onrender.com/api/order';
 	dispatch(loadingCart());
 
 	try {
